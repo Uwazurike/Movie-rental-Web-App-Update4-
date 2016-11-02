@@ -1,0 +1,90 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #939393
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.jumbotron {
+    background-image: url(../Images/bimage.PNG)
+}
+
+container {
+    max-width: 100%!important;
+}
+.container .jumbotron {
+  border-radius: 0px;
+  background-color: #222222;
+}
+.stream{
+    text-decoration: none;
+    color: white;
+}
+.body-content {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1.5px;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 100%;
+
+}
+}
+.jumbotron p {
+    line-height: 500px;
+}
+.LeftImage {
+   width:100%;
+    height:auto;
+    float:left;
+    margin-top: -10%;
+    margin-left: -21%;
+}
+.stream p {
+    text-decoration: solid;
+    color:#ffffff
+}
+.row {
+    width:99.99%;
+}
+.navbar-inverse {
+    border-color: white;
+    background-color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #4bbb7e;
+}
+.navbar-brand {
+    color: #66AA33;
+}
+@media (min-width: 1200px) {
+  .navbar > .container .navbar-brand {
+      text-decoration:solid;
+    color: #4bbb7e;
+  }
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  float: right;
+}
